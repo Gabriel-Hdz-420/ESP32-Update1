@@ -1,1 +1,22 @@
-<h1>Mi primera página</h1>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Actualizar ESP32</title>
+  <script type="module" src="https://unpkg.com/esp-web-tools@9/dist/web/install-button.js?module"></script>
+</head>
+
+<body style="text-align:center; font-family:Arial; background:#111; color:white; padding-top:50px;">
+
+  <h1>Actualizar ESP32</h1>
+
+  <p>Conecta tu dispositivo por USB</p>
+
+  <esp-web-install-button manifest="manifest.json">
+    <button style="padding:10px 20px; font-size:16px;">
+      Conectar y Actualizar
+    </button>
+  </esp-web-install-button>
+
+</body>
+</html>
